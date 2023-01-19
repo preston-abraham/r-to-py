@@ -7,7 +7,7 @@ openai.organization = "org-eptWwJzwl8LLZVNyAH1xBxbF"
 openai.api_key = st.secrets['api_key']
 
 
-st.title('R to Pyhton Re-writer')
+st.title('R to Python Re-Writer')
 
 code = st.text_area('Code to rewrite')
 response = ''
