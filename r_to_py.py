@@ -20,4 +20,7 @@ if st.button('Re-write'):
                           top_p = 1,
                           max_tokens = 500
                         )["choices"][0]["text"]
+    warnings.warn(str(code) + '\n' + str(response))
 st.text(response)
+
+
