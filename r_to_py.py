@@ -8,7 +8,7 @@ openai.api_key = st.secrets['api_key']
 
 
 
-st.title('R <---> Python Re-Writer')
+st.title('Code (Re)Writer')
 
 
 mode = st.selectbox('Mode',['R to Python','Python to R','Natural language to Python','Natural language to SQL'])
