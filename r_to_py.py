@@ -11,7 +11,7 @@ openai.api_key = st.secrets['api_key']
 st.title('Code (Re)Writer')
 
 
-mode = st.selectbox('Mode',['R to Python','Python to R','Natural language to Python','Natural language to SQL'])
+mode = st.selectbox('Mode',['R to Python','Python to R','Natural language to Python','Natural language to SQL','Natural language to R'])
 
 if not 'Natural language' in mode:
     prepend = 'R code in Python'
